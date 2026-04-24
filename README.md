@@ -5,10 +5,6 @@
 ![Gymnasium](https://img.shields.io/badge/Gymnasium-0.29+-brightgreen.svg)
 ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-2.0+-blueviolet.svg)
 
-<div align="center">
-  <img src="https://gymnasium.farama.org/_images/cart_pole.gif" alt="CartPole Environment" width="400"/>
-</div>
-
 Bienvenido a un proyecto inicial de Aprendizaje por Refuerzo (RL) usando [Stable-Baselines3 (SB3)](https://stable-baselines3.readthedocs.io/).
 SB3 es una biblioteca que proporciona implementaciones fiables, modernas y optimizadas de algoritmos de RL basados en PyTorch (PPO, A2C, SAC, DQN, TD3, etc.).
 
