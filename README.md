@@ -68,9 +68,6 @@ Luego, entra en `http://localhost:6006` en tu navegador.
 
 Al entrenar el agente con el algoritmo **PPO** en el entorno `CartPole-v1` por unos `20,000` timesteps, observarás los siguientes resultados:
 
-<img src="https://stable-baselines3.readthedocs.io/en/master/_images/a2c_cartpole.png" alt="Curva de Aprendizaje de Ejemplo" width="600"/>
-*(Nota: Imagen de referencia de la documentación oficial. Tus resultados con `plot_results.py` lucirán similares: la curva de recompensa (Eje Y) ascendiendo con el paso de los episodios (Eje X) hasta estancarse en torno a 500).*
-
 - **Convergencia rápida:** La recompensa máxima en este entorno suele ser de 500 por episodio. El agente típicamente aprende a balancear el palo perfectamente antes de terminar el entrenamiento, logrando recompensas de `500` (o muy cercanas) de manera consistente.
 - **Evaluación estable:** Durante la ejecución de `src/evaluate.py`, notarás que el poste rara vez se cae. El carrito simplemente hace micro-ajustes de izquierda a derecha.
 - **Curva de Aprendizaje:** Al correr TensorBoard o `src/plot_results.py`, la gráfica de recompensa media subirá abruptamente en los primeros miles de pasos y luego se estabilizará en la recompensa máxima permitida, demostrando que PPO es muy eficiente resolviendo entornos de dimensión reducida.
